@@ -1,0 +1,242 @@
+[
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 1,
+        "fields": {
+            "name_jp_kanji": "（仮）学院",
+            "name_jp_pronunciations": "Academy",
+            "name_en": "Academy",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "When you gain an Action card， +1 Villager."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 2,
+        "fields": {
+            "name_jp_kanji": "（仮）兵営",
+            "name_jp_pronunciations": "Barracks",
+            "name_en": "Barracks",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the start of your turn， +1 Action."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 3,
+        "fields": {
+            "name_jp_kanji": "（仮）運河",
+            "name_jp_pronunciations": "Canal",
+            "name_en": "Canal",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "During your turns， cards cost $1 less， but not less than $0."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 4,
+        "fields": {
+            "name_jp_kanji": "（仮）資本主義",
+            "name_jp_pronunciations": "Capitalism",
+            "name_en": "Capitalism",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "During your turns， Actions with +$ amounts in their text are also Treasures."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 5,
+        "fields": {
+            "name_jp_kanji": "（仮）大聖堂",
+            "name_jp_pronunciations": "Cathedral",
+            "name_en": "Cathedral",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the start of your turn， trash a card from your hand."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 6,
+        "fields": {
+            "name_jp_kanji": "（仮）城郭",
+            "name_jp_pronunciations": "Citadel",
+            "name_en": "Citadel",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "The first time you play an Action card during each of your turns， play it again afterward."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 7,
+        "fields": {
+            "name_jp_kanji": "（仮）城門",
+            "name_jp_pronunciations": "City Gate",
+            "name_en": "City Gate",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the start of your turn， +1 Card， then put a card from your hand onto your deck."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 8,
+        "fields": {
+            "name_jp_kanji": "（仮）輪作",
+            "name_jp_pronunciations": "Crop Rotation",
+            "name_en": "Crop Rotation",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the start of your turn， you may discard a Victory card for +2 Cards."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 9,
+        "fields": {
+            "name_jp_kanji": "（仮）踏査",
+            "name_jp_pronunciations": "Exploration",
+            "name_en": "Exploration",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the end of your Buy phase， if you didn't buy any cards， +1 Coffers and +1 Villager."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 10,
+        "fields": {
+            "name_jp_kanji": "（仮）縁日",
+            "name_jp_pronunciations": "Fair",
+            "name_en": "Fair",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the start of your turn， +1 Buy."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 11,
+        "fields": {
+            "name_jp_kanji": "（仮）艦隊",
+            "name_jp_pronunciations": "Fleet",
+            "name_en": "Fleet",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "After the game ends， there's an extra round of turns just for players with this."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 12,
+        "fields": {
+            "name_jp_kanji": "（仮）集会所",
+            "name_jp_pronunciations": "Guildhall",
+            "name_en": "Guildhall",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "When you gain a Treasure， +1 Coffers."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 13,
+        "fields": {
+            "name_jp_kanji": "（仮）技術革新",
+            "name_jp_pronunciations": "Innovation",
+            "name_en": "Innovation",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "The first time you gain an Action card in each of your turns， you may set it aside.If you do， play it."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 14,
+        "fields": {
+            "name_jp_kanji": "（仮）野外劇",
+            "name_jp_pronunciations": "Pageant",
+            "name_en": "Pageant",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the end of your Buy phase， you may pay $1 for +1 Coffers."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 15,
+        "fields": {
+            "name_jp_kanji": "（仮）回廊",
+            "name_jp_pronunciations": "Piazza",
+            "name_en": "Piazza",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the start of your turn， reveal the top card of your deck. If it's an Action， play it."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 16,
+        "fields": {
+            "name_jp_kanji": "（仮）道路網",
+            "name_jp_pronunciations": "Road Network",
+            "name_en": "Road Network",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "When another player gains a Victory card， +1 Card."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 17,
+        "fields": {
+            "name_jp_kanji": "（仮）下水道",
+            "name_jp_pronunciations": "Sewers",
+            "name_en": "Sewers",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "When you trash a card other than with this， you may trash a card from your hand."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 18,
+        "fields": {
+            "name_jp_kanji": "（仮）貯蔵庫",
+            "name_jp_pronunciations": "Silos",
+            "name_en": "Silos",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the start of your turn， discard any number of Coppers， revealed， and draw that many cards."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 19,
+        "fields": {
+            "name_jp_kanji": "（仮）邪悪な策略",
+            "name_jp_pronunciations": "Sinister Plot",
+            "name_en": "Sinister Plot",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the start of your turn， add a token here， or remove your tokens here for +1 Card each."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Project",
+        "pk": 20,
+        "fields": {
+            "name_jp_kanji": "（仮）星図",
+            "name_jp_pronunciations": "Star Chart",
+            "name_en": "Star Chart",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "When you shuffle， you may pick one of the cards to go on top."
+        }
+    }
+]

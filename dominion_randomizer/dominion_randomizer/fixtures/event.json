@@ -1,0 +1,512 @@
+[
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 1,
+        "fields": {
+            "cost_coin": "0",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "施し",
+            "name_jp_pronunciations": "ほどこし",
+            "name_en": "Alms",
+            "expansion": 10,
+            "text_jp": "ターン中に１度だけ：あなたが場に財宝カードを出していない場合、コスト４コイン以下のカード１枚を獲得する。",
+            "text_en": "《2nd Edition》Once per turn: If you have no Treasures in play， gain a card costing up to $4.《1st Edition》Once per turn: If you have no Treasures in play， gain a card costing up to $4."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 2,
+        "fields": {
+            "cost_coin": "5",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "舞踏会",
+            "name_jp_pronunciations": "ぶとうかい",
+            "name_en": "Ball",
+            "expansion": 10,
+            "text_jp": "あなたの▲１コイントークンを自分の手前に置く。コスト４コイン以下のカード２枚を獲得する。",
+            "text_en": "《2nd Edition》Take your –$1 token.Gain 2 cards each costing up to $4.《1st Edition》Take your -$1 token. Gain 2 cards each costing up to $4."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 3,
+        "fields": {
+            "cost_coin": "3",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "焚火",
+            "name_jp_pronunciations": "たきび",
+            "name_en": "Bonfire",
+            "expansion": 10,
+            "text_jp": "あなたが場に出しているカードを、最大２枚まで廃棄する。",
+            "text_en": "《2nd Edition》Trash up to 2 cards you have in play.《1st Edition》Trash up to 2 cards you have in play."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 4,
+        "fields": {
+            "cost_coin": "0",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "借入",
+            "name_jp_pronunciations": "しゃくにゅう",
+            "name_en": "Borrow",
+            "expansion": 10,
+            "text_jp": "＋１カードを購入ターン中に１度だけ：あなたのデッキの上に▲１カードトークンがない場合、デッキの上に▲１カードトークンを置き、＋１コイン。",
+            "text_en": "《2nd Edition》Once per turn: +1 Buy. If your –1 Card token isn't on your deck， put it there and +$1.《1st Edition》+1 BuyOnce per turn: If your -1 Card token isn't on your deck， put it there and +$1."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 5,
+        "fields": {
+            "cost_coin": "3",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "探検",
+            "name_jp_pronunciations": "たんけん",
+            "name_en": "Expedition",
+            "expansion": 10,
+            "text_jp": "あなたの次の手札でカード２枚を追加で引く。",
+            "text_en": "《2nd Edition》Draw 2 extra cards for your next hand.《1st Edition》Draw 2 extra cards for your next hand."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 6,
+        "fields": {
+            "cost_coin": "3",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "渡し船",
+            "name_jp_pronunciations": "わたしぶね",
+            "name_en": "Ferry",
+            "expansion": 10,
+            "text_jp": "あなたの▲２コインコストトークンを、サプライにあるアクションの山札へ移動する（あなたのターン、その山札に由来するカードのコストは２コイン少なくなるが、０コイン未満にはならない）。",
+            "text_en": "《2nd Edition》Move your -$2 cost token to an Action Supply pile. (Cards from that pile cost $2 less on your turns， but not less than $0.)《1st Edition》Move your -$2 cost token to an Action Supply pile (cards from that pile cost $2 less on your turns， but not less than $0)."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 7,
+        "fields": {
+            "cost_coin": "7",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "相続",
+            "name_jp_pronunciations": "そうぞく",
+            "name_en": "Inheritance",
+            "expansion": 10,
+            "text_jp": "ゲーム中に１度だけ：サプライからコスト４コイン以下の勝利点でないアクションカード１枚を脇に置く。あなたの屋敷トークンを、そのカードへ移動する（あなたの屋敷は、その脇に置いたカードの能力と種類を得る）。",
+            "text_en": "《2nd Edition》Once per game: Set aside a non-Victory Action card from the Supply costing up to $4 . Move your Estate token to it.(Your Estates gain the abilities and types of that card.)《1st Edition》Once per game: Set aside a non-Victory Action card from the Supply costing up to $4 . Move your Estate token to it (your Estates gain the abilities and types of that card)."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 8,
+        "fields": {
+            "cost_coin": "6",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "失われた技術",
+            "name_jp_pronunciations": "うしなわれたぎじゅつ",
+            "name_en": "Lost Arts",
+            "expansion": 10,
+            "text_jp": "あなたの＋１アクショントークンをサプライにあるアクションの山札へ移動する（あなたは、その山札に由来するカードを使用するとき、先に＋１アクションを得る）。",
+            "text_en": "《2nd Edition》Move your +1 Action token to an Action Supply pile. (When you play a card from that pile， you first get +1 Action.)《1st Edition》Move your +1 Action token to an Action Supply pile (when you play a card from that pile， you first get +1 Action)."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 9,
+        "fields": {
+            "cost_coin": "4",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "使節団",
+            "name_jp_pronunciations": "しせつだん",
+            "name_en": "Mission",
+            "expansion": 10,
+            "text_jp": "ターン中に１度だけ：１つ前のターンがあなたのターンでない場合、このターンの後ももう一度ターンを得る。そのターン、カードの購入はできない。",
+            "text_en": "《2nd Edition》Once per turn: If the previous turn wasn't yours， take another turn after this one， in which you can't buy cards.《1st Edition》Once per turn: If the previous turn wasn't yours， take another turn after this one， in which you can't buy cards."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 10,
+        "fields": {
+            "cost_coin": "8",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "誘導",
+            "name_jp_pronunciations": "ゆうどう",
+            "name_en": "Pathfinding",
+            "expansion": 10,
+            "text_jp": "あなたの＋１カードトークンをサプライにあるアクションの山札へ移動する（あなたは、その山札に由来するカードを使用するとき、先に＋１カードを引くを得る）。",
+            "text_en": "《2nd Edition》Move your +1 Card token to an Action Supply pile. (When you play a card from that pile， you first get +1 Card.)《1st Edition》Move your +1 Card token to an Action Supply pile (when you play a card from that pile， you first get +1 Card)."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 11,
+        "fields": {
+            "cost_coin": "4",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "巡礼",
+            "name_jp_pronunciations": "じゅんれい",
+            "name_en": "Pilgrimage",
+            "expansion": 10,
+            "text_jp": "ターン中に１度だけ：あなたの旅トークンをひっくり返す（ゲーム開始時は表向き）。表向きになった場合、あなたは場に出している異なる名前のカード３枚までを選び、選んだカードと同じカードを１枚ずつ獲得する。",
+            "text_en": "《2nd Edition》Once per turn: Turn your Journey token over (it starts face up); then if it's face up， choose up to 3 differently named cards you have in play and gain a copy of each.《1st Edition》Once per turn: Turn your Journey token over (it starts face up); then if it's face up， choose up to 3 differently named cards you have in play and gain a copy of each."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 12,
+        "fields": {
+            "cost_coin": "3",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "立案",
+            "name_jp_pronunciations": "りつあん",
+            "name_en": "Plan",
+            "expansion": 10,
+            "text_jp": "あなたの廃棄トークンをサプライにあるアクションの山札へ移動する（あなたは、その山札に由来するカードを購入するとき、先に手札からカード１枚を廃棄してもよい）。※日本語版エラッタ：カード交換対応による修正済×「カードを使用するとき」○「カードを購入するとき」",
+            "text_en": "《2nd Edition》Move your Trashing token to an Action Supply pile. (When you buy a card from that pile， you may trash a card from your hand.)《1st Edition》Move your Trashing token to an Action supply pile (when you buy a card from that pile， you may trash a card from your hand.)"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 13,
+        "fields": {
+            "cost_coin": "0",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "探索",
+            "name_jp_pronunciations": "たんさく",
+            "name_en": "Quest",
+            "expansion": 10,
+            "text_jp": "あなたは、アタックカード１枚か、呪い１枚か、好きなカード６枚を捨て札にしてもよい。そうした場合、金貨１枚を獲得する。",
+            "text_en": "《2nd Edition》You may discard an Attack， two Curses， or six cards.If you do， gain a Gold.《1st Edition》You may discard an Attack， two Curses， or six cards.If you do， gain a Gold."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 14,
+        "fields": {
+            "cost_coin": "5",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "奇襲",
+            "name_jp_pronunciations": "きしゅう",
+            "name_en": "Raid",
+            "expansion": 10,
+            "text_jp": "あなたが場に出している銀貨１枚につき銀貨１枚を獲得する。他のプレイヤーは全員、自分の▲１カードトークンを自分のデッキの上に置く。",
+            "text_en": "《2nd Edition》Gain a Silver per Silver you have in play.Each other player puts their –1 Card token on their deck.《1st Edition》Gain a Silver per Silver you have in play.Each other player puts his -1 Card token on his deck."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 15,
+        "fields": {
+            "cost_coin": "1",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "保存",
+            "name_jp_pronunciations": "ほぞん",
+            "name_en": "Save",
+            "expansion": 10,
+            "text_jp": "＋１カードを購入ターン中に１度だけ：あなたの手札からカード１枚を脇に置き、ターン終了時（カードを引いた後）にそのカードをあなたの手札に加える。",
+            "text_en": "《2nd Edition》Once per turn: +1 Buy. Set aside a card from your hand， and put it into your hand at end of turn (after drawing).《1st Edition》+1 BuyOnce per turn: Set aside a card from your hand， and put it into your hand at end of turn (after drawing)."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 16,
+        "fields": {
+            "cost_coin": "2",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "偵察隊",
+            "name_jp_pronunciations": "ていさつたい",
+            "name_en": "Scouting Party",
+            "expansion": 10,
+            "text_jp": "＋１カードを購入あなたのデッキの上から５枚のカードを見る。その中の３枚を捨て札にし、残りを好きな順番でデッキの上に戻す。",
+            "text_en": "《2nd Edition》+1 BuyLook at the top 5 cards of your deck.Discard 3 and put the rest back in any order.《1st Edition》+1 BuyLook at the top 5 cards of your deck. Discard 3 of them and put the rest back in any order."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 17,
+        "fields": {
+            "cost_coin": "5",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "海路",
+            "name_jp_pronunciations": "かいろ",
+            "name_en": "Seaway",
+            "expansion": 10,
+            "text_jp": "コストが４コイン以下のアクションカード１枚を獲得する。あなたの＋１購入トークンをサプライにあるそのカードの山札へ移動する（あなたは、その山札に由来するカードを使用するとき、先に＋１カードを購入を得る）。",
+            "text_en": "《2nd Edition》Gain an Action card costing up to $4.Move your +1 Buy token to its pile. (When you play a card from that pile， you first get +1 Buy.)《1st Edition》Gain an Action card costing up to $4.Move your +1 Buy token to its pile (when you play a card from that pile， you first get +1 Buy)."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 18,
+        "fields": {
+            "cost_coin": "5",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "交易",
+            "name_jp_pronunciations": "こうえき",
+            "name_en": "Trade",
+            "expansion": 10,
+            "text_jp": "あなたの手札から２枚までのカードを廃棄する。廃棄したカード１枚につき銀貨１枚を獲得する。",
+            "text_en": "《2nd Edition》Trash up to 2 cards from your hand.Gain a Silver per card you trashed.《1st Edition》Trash up to 2 cards from your hand.Gain a Silver per card you trashed."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 19,
+        "fields": {
+            "cost_coin": "6",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "鍛錬",
+            "name_jp_pronunciations": "たんれん",
+            "name_en": "Training",
+            "expansion": 10,
+            "text_jp": "あなたの＋１コイントークンをサプライにあるアクションの山札へ移動する（あなたは、その山札に由来するカードを使用するとき、先に＋１コインを得る）。",
+            "text_en": "《2nd Edition》Move your +$1 token to an Action Supply pile.(When you play a card from that pile， you first get +$1.)《1st Edition》Move your +$1 token to an Action Supply pile (when you play a card from that pile， you first get +$1)."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 20,
+        "fields": {
+            "cost_coin": "2",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "移動遊園地",
+            "name_jp_pronunciations": "いどうゆうえんち",
+            "name_en": "Travelling Fair",
+            "expansion": 10,
+            "text_jp": "＋２カードを購入このターンあなたがカード１枚を獲得するとき、そのカードをあなたのデッキの上に置いてもよい。",
+            "text_en": "《2nd Edition》+2 BuysWhen you gain a card this turn， you may put it onto your deck.《1st Edition》+2 BuysWhen you gain a card this turn， you may put it on top of your deck."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 21,
+        "fields": {
+            "cost_coin": "5",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "召喚",
+            "name_jp_pronunciations": "しょうかん",
+            "name_en": "Summon",
+            "expansion": 14,
+            "text_jp": "コスト４コイン以下のアクションカード１枚を獲得する。そのカードを脇に置く。そうした場合、あなたは次のターンの開始時にそのカードを使用する。",
+            "text_en": "《2nd Edition》Gain an Action card costing up to $4. Set it aside.If you did， then at the start of your next turn， play it.《1st Edition》Gain an Action card costing up to $4， Set it aside.If you do， then at the start of your next turn， play it."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 22,
+        "fields": {
+            "cost_coin": "0",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "昇進",
+            "name_jp_pronunciations": "しょうしん",
+            "name_en": "Advance",
+            "expansion": 11,
+            "text_jp": "あなたは手札からアクションカード１枚を廃棄してもよい。そうした場合、コスト６コイン以下のアクションカード１枚を獲得する。",
+            "text_en": "You may trash an Action card from your hand. If you do， gain an Action card costing up to $6."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 23,
+        "fields": {
+            "cost_coin": null,
+            "cost_potion": null,
+            "cost_debt": "8",
+            "name_jp_kanji": "併合",
+            "name_jp_pronunciations": "へいごう",
+            "name_en": "Annex",
+            "expansion": 11,
+            "text_jp": "あなたの捨て札のカードすべてを見る。その中から最大５枚までのカードを除き、それ以外すべてのカードをあなたのデッキに加えて、デッキをシャッフルする。公領１枚を獲得する。",
+            "text_en": "Look through your discard pile. Shuffle all but up to 5 cards from it into your deck. Gain a Duchy."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 24,
+        "fields": {
+            "cost_coin": "3",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "宴会",
+            "name_jp_pronunciations": "えんかい",
+            "name_en": "Banquet",
+            "expansion": 11,
+            "text_jp": "銅貨２枚とコスト５コイン以下の勝利点でないカード１枚を獲得する。",
+            "text_en": "Gain 2 Coppers and a non-Victory card costing up to $5."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 25,
+        "fields": {
+            "cost_coin": "6",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "征服",
+            "name_jp_pronunciations": "せいふく",
+            "name_en": "Conquest",
+            "expansion": 11,
+            "text_jp": "銀貨２枚を獲得する。このターンあなたが獲得した銀貨１枚につき、＋１勝利点トークン。",
+            "text_en": "Gain 2 Silvers. +1 VP per Silver you've gained this turn."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 26,
+        "fields": {
+            "cost_coin": "2",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "掘進",
+            "name_jp_pronunciations": "くっしん",
+            "name_en": "Delve",
+            "expansion": 11,
+            "text_jp": "＋１カードを購入銀貨１枚を獲得する。",
+            "text_en": "+1 BuyGain a Silver."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 27,
+        "fields": {
+            "cost_coin": "14",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "制圧",
+            "name_jp_pronunciations": "せいあつ",
+            "name_en": "Dominate",
+            "expansion": 11,
+            "text_jp": "属州１枚を獲得する。そうした場合、＋９勝利点トークン。",
+            "text_en": "Gain a Province. If you do， +9 VP."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 28,
+        "fields": {
+            "cost_coin": null,
+            "cost_potion": null,
+            "cost_debt": "8",
+            "name_jp_kanji": "寄付",
+            "name_jp_pronunciations": "きふ",
+            "name_en": "Donate",
+            "expansion": 11,
+            "text_jp": "このターンの後に、あなたのデッキと捨て札置き場のすべてのカードをあなたの手札に加え、そこから好きな枚数のカードを廃棄し、あなたの手札をあなたのデッキに加えてデッキをシャッフルし、その後カードを５枚引く。",
+            "text_en": "After this turn， put all cards from your deck and discard pile into your hand， trash any number， shuffle your hand into your deck， then draw 5 cards."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 29,
+        "fields": {
+            "cost_coin": "4",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "儀式",
+            "name_jp_pronunciations": "ぎしき",
+            "name_en": "Ritual",
+            "expansion": 11,
+            "text_jp": "呪いを１枚獲得する。そうした場合、あなたの手札からカードを１枚廃棄する。そのカードを廃棄したときのコスト１コインにつき、＋１勝利点トークン。",
+            "text_en": "Gain a Curse. If you do， trash a card from your hand. +1 VP per $1 it cost."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 30,
+        "fields": {
+            "cost_coin": "4",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "大地への塩まき",
+            "name_jp_pronunciations": "だいちへのしおまき",
+            "name_en": "Salt the Earth",
+            "expansion": 11,
+            "text_jp": "＋１勝利点トークンサプライから勝利点カード１枚を廃棄する。",
+            "text_en": "+1 VPTrash a Victory card from the Supply."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 31,
+        "fields": {
+            "cost_coin": "2",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "徴税",
+            "name_jp_pronunciations": "ちょうぜい",
+            "name_en": "Tax",
+            "expansion": 11,
+            "text_jp": "サプライにある山札１つに２負債トークンを加える。-------------------------準備：サプライにある山札すべてにそれぞれ１負債トークンを加える。プレイヤーがカード１枚を購入するとき、そのプレイヤーはその山札にある負債トークンすべてを受け取る。",
+            "text_en": "Add 2 Debt to a Supply pile.-------------------------Setup: Add 1 Debt to each Supply pile. When a player buys a card， they take the Debt from its pile."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 32,
+        "fields": {
+            "cost_coin": null,
+            "cost_potion": null,
+            "cost_debt": "5",
+            "name_jp_kanji": "凱旋",
+            "name_jp_pronunciations": "がいせん",
+            "name_en": "Triumph",
+            "expansion": 11,
+            "text_jp": "屋敷１枚を獲得する。そうした場合、このターンあなたが獲得したカード１枚につき、＋１勝利点トークン。",
+            "text_en": "Gain an Estate. If you did， +1 VP per card you've gained this turn."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 33,
+        "fields": {
+            "cost_coin": "4",
+            "cost_potion": null,
+            "cost_debt": "3",
+            "name_jp_kanji": "結婚式",
+            "name_jp_pronunciations": "けっこんしき",
+            "name_en": "Wedding",
+            "expansion": 11,
+            "text_jp": "＋１勝利点トークン金貨１枚を獲得する。",
+            "text_en": "+1 VPGain a Gold."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Event",
+        "pk": 34,
+        "fields": {
+            "cost_coin": "5",
+            "cost_potion": null,
+            "cost_debt": null,
+            "name_jp_kanji": "意外な授かり物",
+            "name_jp_pronunciations": "いがいなさずかりもの",
+            "name_en": "Windfall",
+            "expansion": 11,
+            "text_jp": "あなたのデッキとあなたの捨て札置き場が空である場合、金貨を３枚獲得する。",
+            "text_en": "If your deck and discard pile are empty， gain 3 Golds."
+        }
+    }
+]

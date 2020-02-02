@@ -1,0 +1,146 @@
+[
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 1,
+        "fields": {
+            "name_jp_kanji": "大地の恵み",
+            "name_jp_pronunciations": "だいちのめぐみ",
+            "name_en": "The Earth's Gift",
+            "expansion": 12,
+            "text_jp": "手札の財宝カード１枚を捨て札にして、コスト４コイン以下のカード１枚を獲得してもよい。",
+            "text_en": "You may discard a Treasure to gain a card costing up to $4."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 2,
+        "fields": {
+            "name_jp_kanji": "田畑の恵み",
+            "name_jp_pronunciations": "たはたのめぐみ",
+            "name_en": "The Field's Gift",
+            "expansion": 12,
+            "text_jp": "＋１アクション＋１コイン（これをクリーンアップフェイズまで持っておく。）",
+            "text_en": "+1 Action+$1(Keep this until Clean-up.)"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 3,
+        "fields": {
+            "name_jp_kanji": "炎の恵み",
+            "name_jp_pronunciations": "ほのおのめぐみ",
+            "name_en": "The Flame's Gift",
+            "expansion": 12,
+            "text_jp": "手札のカード１枚を廃棄してもよい。",
+            "text_en": "You may trash a card from your hand."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 4,
+        "fields": {
+            "name_jp_kanji": "森の恵み",
+            "name_jp_pronunciations": "もりのめぐみ",
+            "name_en": "The Forest's Gift",
+            "expansion": 12,
+            "text_jp": "＋１カードを購入＋１コイン（これをクリーンアップフェイズまで持っておく。）",
+            "text_en": "+1 Buy+$1(Keep this until Clean-up.)"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 5,
+        "fields": {
+            "name_jp_kanji": "月の恵み",
+            "name_jp_pronunciations": "つきのめぐみ",
+            "name_en": "The Moon's Gift",
+            "expansion": 12,
+            "text_jp": "あなたの捨て札のカードすべてを見る。その中のカード１枚をあなたのデッキの上に置いてもよい。",
+            "text_en": "Look through your discard pile. You may put a card from it onto your deck."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 6,
+        "fields": {
+            "name_jp_kanji": "山の恵み",
+            "name_jp_pronunciations": "やまのめぐみ",
+            "name_en": "The Mountain's Gift",
+            "expansion": 12,
+            "text_jp": "銀貨１枚を獲得する。",
+            "text_en": "Gain a Silver."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 7,
+        "fields": {
+            "name_jp_kanji": "川の恵み",
+            "name_jp_pronunciations": "かわのめぐみ",
+            "name_en": "The River's Gift",
+            "expansion": 12,
+            "text_jp": "このターンの終了時、＋１カードを引く。（これをクリーンアップフェイズまで持っておく。）",
+            "text_en": "+1 Card at the end of this turn.(Keep this until Clean-up.)"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 8,
+        "fields": {
+            "name_jp_kanji": "海の恵み",
+            "name_jp_pronunciations": "うみのめぐみ",
+            "name_en": "The Sea's Gift",
+            "expansion": 12,
+            "text_jp": "＋１カードを引く",
+            "text_en": "+1 Card"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 9,
+        "fields": {
+            "name_jp_kanji": "空の恵み",
+            "name_jp_pronunciations": "そらのめぐみ",
+            "name_en": "The Sky's Gift",
+            "expansion": 12,
+            "text_jp": "あなたの手札３枚を捨て札にして、金貨１枚を獲得してもよい。",
+            "text_en": "You may discard 3 cards to gain a Gold."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 10,
+        "fields": {
+            "name_jp_kanji": "太陽の恵み",
+            "name_jp_pronunciations": "たいようのめぐみ",
+            "name_en": "The Sun's Gift",
+            "expansion": 12,
+            "text_jp": "あなたのデッキの上からカード４枚を見る。その中から好きな枚数を捨て札にし、残りを好きな順番でデッキの上に戻す。",
+            "text_en": "Look at the top 4 cards of your deck.Discard any number of them and put the rest back in any order."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 11,
+        "fields": {
+            "name_jp_kanji": "沼の恵み",
+            "name_jp_pronunciations": "ぬまのめぐみ",
+            "name_en": "The Swamp's Gift",
+            "expansion": 12,
+            "text_jp": "ウィル・オ・ウィスプ１枚をそのカードの山から獲得する。",
+            "text_en": "Gain a Will-o'-Wisp from its pile."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Boon",
+        "pk": 12,
+        "fields": {
+            "name_jp_kanji": "風の恵み",
+            "name_jp_pronunciations": "かぜのめぐみ",
+            "name_en": "The Wind's Gift",
+            "expansion": 12,
+            "text_jp": "＋２カードを引く手札からカード２枚を捨て札にする。",
+            "text_en": "+2 CardsDiscard 2 cards."
+        }
+    }
+]

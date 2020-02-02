@@ -1,0 +1,128 @@
+[
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 1,
+        "fields": {
+            "name_jp_kanji": "基本",
+            "name_jp_pronunciations": "きほん",
+            "name_en": "Basic"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 2,
+        "fields": {
+            "name_jp_kanji": "陰謀",
+            "name_jp_pronunciations": "いんぼう",
+            "name_en": "Intrigue"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 3,
+        "fields": {
+            "name_jp_kanji": "海辺",
+            "name_jp_pronunciations": "うみべ",
+            "name_en": "Seaside"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 4,
+        "fields": {
+            "name_jp_kanji": "錬金術",
+            "name_jp_pronunciations": "れんきんじゅつ",
+            "name_en": "Alchemy"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 5,
+        "fields": {
+            "name_jp_kanji": "繁栄",
+            "name_jp_pronunciations": "はんえい",
+            "name_en": "Prosperity"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 6,
+        "fields": {
+            "name_jp_kanji": "収穫祭",
+            "name_jp_pronunciations": "しゅうかくさい",
+            "name_en": "Cornucopia"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 7,
+        "fields": {
+            "name_jp_kanji": "異郷",
+            "name_jp_pronunciations": "いきょう",
+            "name_en": "Hinterlands"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 8,
+        "fields": {
+            "name_jp_kanji": "暗黒時代",
+            "name_jp_pronunciations": "あんこくじだい",
+            "name_en": "Dark Ages"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 9,
+        "fields": {
+            "name_jp_kanji": "ギルド",
+            "name_jp_pronunciations": "ぎるど",
+            "name_en": "Guilds"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 10,
+        "fields": {
+            "name_jp_kanji": "冒険",
+            "name_jp_pronunciations": "ぼうけん",
+            "name_en": "Adventures"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 11,
+        "fields": {
+            "name_jp_kanji": "帝国",
+            "name_jp_pronunciations": "ていこく",
+            "name_en": "Empires"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 12,
+        "fields": {
+            "name_jp_kanji": "夜想曲",
+            "name_jp_pronunciations": "やそうきょく",
+            "name_en": "Nocturne"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 13,
+        "fields": {
+            "name_jp_kanji": "Renaissance",
+            "name_jp_pronunciations": "るねさんす",
+            "name_en": "Renaissance"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Expansion",
+        "pk": 14,
+        "fields": {
+            "name_jp_kanji": "プロモ",
+            "name_jp_pronunciations": "ぷろも",
+            "name_en": "Promo"
+        }
+    }
+]

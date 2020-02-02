@@ -1,0 +1,62 @@
+[
+    {
+        "model": "dominion_randomizer.Artifact",
+        "pk": 1,
+        "fields": {
+            "name_jp_kanji": "（仮）角笛",
+            "name_jp_pronunciations": "Horn",
+            "name_en": "Horn",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "Once per turn， when you discard a Border Guard from play， you may put it onto your deck."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Artifact",
+        "pk": 2,
+        "fields": {
+            "name_jp_kanji": "（仮）角灯",
+            "name_jp_pronunciations": "Lantern",
+            "name_en": "Lantern",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "Your Border Guards reveal 3 cards and discard 2.(It takes all 3 being Actions to take the Horn.)"
+        }
+    },
+    {
+        "model": "dominion_randomizer.Artifact",
+        "pk": 3,
+        "fields": {
+            "name_jp_kanji": "（仮）旗",
+            "name_jp_pronunciations": "Flag",
+            "name_en": "Flag",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "When drawing your hand， +1 Card."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Artifact",
+        "pk": 4,
+        "fields": {
+            "name_jp_kanji": "（仮）宝箱",
+            "name_jp_pronunciations": "Treasure Chest",
+            "name_en": "Treasure Chest",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the start of your Buy phase， gain a Gold."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Artifact",
+        "pk": 5,
+        "fields": {
+            "name_jp_kanji": "（仮）鍵",
+            "name_jp_pronunciations": "Key",
+            "name_en": "Key",
+            "expansion": 13,
+            "text_jp": "",
+            "text_en": "At the start of your turn， +$1."
+        }
+    }
+]

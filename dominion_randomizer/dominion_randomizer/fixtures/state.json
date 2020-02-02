@@ -1,0 +1,62 @@
+[
+    {
+        "model": "dominion_randomizer.State",
+        "pk": 1,
+        "fields": {
+            "name_jp_kanji": "森の迷子",
+            "name_jp_pronunciations": "もりのまいご",
+            "name_en": "Lost in the Woods",
+            "expansion": 12,
+            "text_jp": "あなたのターンの開始時、あなたは手札１枚を捨て札にして祝福を１つ受けてもよい。",
+            "text_en": "At the start of your turn， you may discard a card to receive a Boon."
+        }
+    },
+    {
+        "model": "dominion_randomizer.State",
+        "pk": 2,
+        "fields": {
+            "name_jp_kanji": "錯乱",
+            "name_jp_pronunciations": "さくらん",
+            "name_en": "Deluded",
+            "expansion": 12,
+            "text_jp": "あなたの購入フェイズの開始時、このカードを返し、あなたはこのターンが終わるまでアクションカードを購入できない。",
+            "text_en": "At the start of your Buy phase， return this， and you can't buy Actions this turn."
+        }
+    },
+    {
+        "model": "dominion_randomizer.State",
+        "pk": 3,
+        "fields": {
+            "name_jp_kanji": "嫉妬",
+            "name_jp_pronunciations": "しっと",
+            "name_en": "Envious",
+            "expansion": 12,
+            "text_jp": "あなたの購入フェイズの開始時、このカードを返し、このターンが終わるまで銀貨と金貨は１コインのみ生み出す。",
+            "text_en": "At the start of your Buy phase， return this， and Silver and Gold make $1 this turn."
+        }
+    },
+    {
+        "model": "dominion_randomizer.State",
+        "pk": 4,
+        "fields": {
+            "name_jp_kanji": "生活苦",
+            "name_jp_pronunciations": "せいかつく",
+            "name_en": "Miserable",
+            "expansion": 12,
+            "text_jp": "▲２勝利点",
+            "text_en": "-2 VP"
+        }
+    },
+    {
+        "model": "dominion_randomizer.State",
+        "pk": 5,
+        "fields": {
+            "name_jp_kanji": "二重苦",
+            "name_jp_pronunciations": "にじゅうく",
+            "name_en": "Twice Miserable",
+            "expansion": 12,
+            "text_jp": "▲４勝利点",
+            "text_en": "-4 VP"
+        }
+    }
+]

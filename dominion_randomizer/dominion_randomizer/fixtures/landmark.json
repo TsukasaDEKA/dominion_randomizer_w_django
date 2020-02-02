@@ -1,0 +1,254 @@
+[
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 1,
+        "fields": {
+            "name_jp_kanji": "水道橋",
+            "name_jp_pronunciations": "すいどうきょう",
+            "name_en": "Aqueduct",
+            "expansion": 11,
+            "text_jp": "あなたが財宝カードを１枚獲得するとき、その山札から１勝利点トークンをこの上に移す。あなたが勝利点カードを１枚獲得するとき、この上にあるすべての勝利点トークンを受け取る。-------------------------準備：銀貨と金貨の山札に８勝利点トークンを置く。",
+            "text_en": "When you gain a Treasure， move 1 VP from its pile to this.When you gain a Victory card， take the VP from this.-------------------------Setup: Put 8 VP on the Silver and Gold piles."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 2,
+        "fields": {
+            "name_jp_kanji": "闘技場",
+            "name_jp_pronunciations": "とうぎじょう",
+            "name_en": "Arena",
+            "expansion": 11,
+            "text_jp": "あなたの購入フェイズの開始時に、あなたはアクションカード１枚を捨て札にしてもよい。そうした場合、この上から２勝利点トークンを受け取る。-------------------------準備：この上にプレイヤー１人につき６勝利点トークンを置く。",
+            "text_en": "At the start of your Buy phase， you may discard an Action card. If you do， take 2 VP from here.-------------------------Setup: Put 6 VP here per player."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 3,
+        "fields": {
+            "name_jp_kanji": "山賊の砦",
+            "name_jp_pronunciations": "さんぞくのとりで",
+            "name_en": "Bandit Fort",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、あなたが持つ銀貨または金貨１枚につき▲２勝利点。",
+            "text_en": "When scoring， -2 VP for each Silver and each Gold you have."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 4,
+        "fields": {
+            "name_jp_kanji": "公会堂",
+            "name_jp_pronunciations": "こうかいどう",
+            "name_en": "Basilica",
+            "expansion": 11,
+            "text_jp": "あなたがカード１枚を購入するとき、２コイン以上残っている場合、この上から２勝利点トークンを受け取る。-------------------------準備：この上にプレイヤー１人につき６勝利点トークンを置く。",
+            "text_en": "When you buy a card， if you have $2 or more left， take 2 VP from here.-------------------------Setup: Put 6 VP here per player."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 5,
+        "fields": {
+            "name_jp_kanji": "浴場",
+            "name_jp_pronunciations": "よくじょう",
+            "name_en": "Baths",
+            "expansion": 11,
+            "text_jp": "あなたがカードを１枚も獲得せずにあなたのターンを終了するとき、この上から２勝利点トークンを受け取る。-------------------------準備：この上にプレイヤー１人につき６勝利点トークンを置く。",
+            "text_en": "When you end your turn without having gained a card， take 2 VP from here.-------------------------Setup: Put 6 VP here per player."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 6,
+        "fields": {
+            "name_jp_kanji": "戦場",
+            "name_jp_pronunciations": "せんじょう",
+            "name_en": "Battlefield",
+            "expansion": 11,
+            "text_jp": "あなたが勝利点カードを１枚獲得するとき、この上から２勝利点トークンを受け取る。-------------------------準備：この上にプレイヤー１人につき６勝利点トークンを置く。",
+            "text_en": "When you gain a Victory card， take 2 VP from here.-------------------------Setup: Put 6 VP here per player."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 7,
+        "fields": {
+            "name_jp_kanji": "列柱",
+            "name_jp_pronunciations": "れっちゅう",
+            "name_en": "Colonnade",
+            "expansion": 11,
+            "text_jp": "あなたがアクションカード１枚を購入するとき、それと同じカードをあなたが場に出している場合、この上から２勝利点トークンを受け取る。-------------------------準備：この上にプレイヤー１人につき６勝利点トークンを置く。",
+            "text_en": "When you buy an Action card， if you have a copy of it in play， take 2 VP from here.-------------------------Setup: Put 6 VP here per player."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 8,
+        "fields": {
+            "name_jp_kanji": "汚された神殿",
+            "name_jp_pronunciations": "よごされたしんでん",
+            "name_en": "Defiled Shrine",
+            "expansion": 11,
+            "text_jp": "あなたがアクションカードを１枚獲得するとき、その山札から１勝利点トークンをこの上に移す。あなたが呪いを１枚購入するとき、この上にあるすべての勝利点トークンを受け取る。-------------------------準備：サプライにある集合でないアクションカードの山札すべてにそれぞれ２勝利点トークンを置く。",
+            "text_en": "When you gain an Action， move 1 VP from its pile to this.When you buy a Curse， take the VP from this.-------------------------Setup: Put 2 VP on each non-Gathering Action Supply pile."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 9,
+        "fields": {
+            "name_jp_kanji": "噴水",
+            "name_jp_pronunciations": "ふんすい",
+            "name_en": "Fountain",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、あなたが銅貨を１０枚以上持っている場合、１５勝利点。",
+            "text_en": "When scoring， 15 VP if you have at least 10 Coppers."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 10,
+        "fields": {
+            "name_jp_kanji": "砦",
+            "name_jp_pronunciations": "とりで",
+            "name_en": "Keep",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、他のプレイヤーと比べて最も多くの枚数を持っている異なる名前の財宝カード１枚につき５勝利点。（引き分けを含む）",
+            "text_en": "When scoring， 5 VP per differently named Treasure you have， that you have more copies of than each other player， or tied for most."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 11,
+        "fields": {
+            "name_jp_kanji": "迷宮",
+            "name_jp_pronunciations": "めいきゅう",
+            "name_en": "Labyrinth",
+            "expansion": 11,
+            "text_jp": "あなたが自分のターンに２枚目のカードを獲得するとき、この上から２勝利点トークンを受け取る。-------------------------準備：この上にプレイヤー１人につき６勝利点トークンを置く。",
+            "text_en": "When you gain a 2nd card in one of your turns， take 2 VP from here.-------------------------Setup: Put 6 VP here per player."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 12,
+        "fields": {
+            "name_jp_kanji": "峠",
+            "name_jp_pronunciations": "とうげ",
+            "name_en": "Mountain Pass",
+            "expansion": 11,
+            "text_jp": "あなたが最初に属州を獲得したプレイヤーになったとき、そのターンの後に、あなたが最後になる順番で、すべてのプレイヤーはそれぞれ１度ずつ４０負債以下の範囲での入札を行う。最大の入札をしたプレイヤーは＋８勝利点トークン、そして入札した値に等しい負債トークンを受け取る。",
+            "text_en": "When you are the first player to gain a Province， after that turn， each player bids once， up to 40 Debt， ending with you. High bidder gets +8 VP and takes the Debt they bid."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 13,
+        "fields": {
+            "name_jp_kanji": "博物館",
+            "name_jp_pronunciations": "はくぶつかん",
+            "name_en": "Museum",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、あなたが持つ異なる名前のカード１枚につき２勝利点。",
+            "text_en": "When scoring， 2 VP per differently named card you have."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 14,
+        "fields": {
+            "name_jp_kanji": "オベリスク",
+            "name_jp_pronunciations": "おべりすく",
+            "name_en": "Obelisk",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、選ばれた山札に由来するカード１枚につき２勝利点。-------------------------準備：サプライにあるアクションの山札をランダムに選ぶ。",
+            "text_en": "When scoring， 2 VP per card you have from the chosen pile.-------------------------Setup: Choose a random Action Supply pile."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 15,
+        "fields": {
+            "name_jp_kanji": "果樹園",
+            "name_jp_pronunciations": "かじゅえん",
+            "name_en": "Orchard",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、３枚以上持っている異なる名前のアクションカード１枚につき４勝利点。",
+            "text_en": "When scoring， 4 VP per differently named Action card you have 3 or more copies of."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 16,
+        "fields": {
+            "name_jp_kanji": "宮殿",
+            "name_jp_pronunciations": "きゅうでん",
+            "name_en": "Palace",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、あなたが持つ銅貨と銀貨と金貨のセット１つにつき３勝利点。",
+            "text_en": "When scoring， 3 VP per set you have of Copper - Silver - Gold."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 17,
+        "fields": {
+            "name_jp_kanji": "墓標",
+            "name_jp_pronunciations": "ぼひょう",
+            "name_en": "Tomb",
+            "expansion": 11,
+            "text_jp": "あなたがカードを１枚廃棄するとき、＋１勝利点トークン。",
+            "text_en": "When you trash a card， +1 VP."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 18,
+        "fields": {
+            "name_jp_kanji": "塔",
+            "name_jp_pronunciations": "とう",
+            "name_en": "Tower",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、空になっているサプライの山札に由来する、勝利点でないカード１枚につき１勝利点。",
+            "text_en": "When scoring， 1 VP per non-Victory card you have from an empty Supply pile."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 19,
+        "fields": {
+            "name_jp_kanji": "凱旋門",
+            "name_jp_pronunciations": "がいせんもん",
+            "name_en": "Triumphal Arch",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、あなたが持つアクションカードの中で２番目に枚数が多いカード１枚につき３勝利点。（もし２番目に枚数が多いカードが複数あるならはどちらかを数える）",
+            "text_en": "When scoring， 3 VP per copy you have of the 2nd most common Action card among your cards (if it's a tie， count either)."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 20,
+        "fields": {
+            "name_jp_kanji": "壁",
+            "name_jp_pronunciations": "かべ",
+            "name_en": "Wall",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、あなたが持つ１５枚を超えるカード１枚につき▲１勝利点。",
+            "text_en": "When scoring， -1 VP per card you have after the first 15."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Landmark",
+        "pk": 21,
+        "fields": {
+            "name_jp_kanji": "狼の巣",
+            "name_jp_pronunciations": "おおかみのす",
+            "name_en": "Wolf Den",
+            "expansion": 11,
+            "text_jp": "得点計算するときに、ちょうど１枚しか持っていないカード１枚につき▲３勝利点。",
+            "text_en": "When scoring， -3 VP per card you have exactly one copy of."
+        }
+    }
+]

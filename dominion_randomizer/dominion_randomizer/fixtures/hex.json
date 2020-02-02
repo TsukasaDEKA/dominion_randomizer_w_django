@@ -1,0 +1,146 @@
+[
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 1,
+        "fields": {
+            "name_jp_kanji": "凶兆",
+            "name_jp_pronunciations": "きょうちょう",
+            "name_en": "Bad Omens",
+            "expansion": 12,
+            "text_jp": "あなたのデッキを捨て札に置く。あなたの捨て札のカードすべてを見て、そこから銅貨２枚をデッキの上に置く。（それができない場合、捨て札のカードすべてを公開する。）",
+            "text_en": "Put your deck into your discard pile. Look through it and put 2 Coppers from it onto your deck (or reveal you can't)."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 2,
+        "fields": {
+            "name_jp_kanji": "幻惑",
+            "name_jp_pronunciations": "げんわく",
+            "name_en": "Delusion",
+            "expansion": 12,
+            "text_jp": "あなたが錯乱も嫉妬も持っていなければ、錯乱を取る。",
+            "text_en": "If you don't have Deluded or Envious， take Deluded."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 3,
+        "fields": {
+            "name_jp_kanji": "羨望",
+            "name_jp_pronunciations": "せんぼう",
+            "name_en": "Envy",
+            "expansion": 12,
+            "text_jp": "あなたが錯乱も嫉妬も持っていなければ、嫉妬を取る。",
+            "text_en": "If you don't have Deluded or Envious， take Envious."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 4,
+        "fields": {
+            "name_jp_kanji": "飢饉",
+            "name_jp_pronunciations": "ききん",
+            "name_en": "Famine",
+            "expansion": 12,
+            "text_jp": "あなたのデッキの上からカード３枚を公開し、公開したアクションカードすべてを捨て札にする。残りをあなたのデッキに加えてシャッフルする。",
+            "text_en": "Reveal the top 3 cards of your deck. Discard the Actions. Shuffle the rest into your deck."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 5,
+        "fields": {
+            "name_jp_kanji": "恐怖",
+            "name_jp_pronunciations": "きょうふ",
+            "name_en": "Fear",
+            "expansion": 12,
+            "text_jp": "あなたの手札が５枚以上あれば手札からアクションカードか財宝カード１枚を捨て札にする。（それができない場合、手札を公開する。）",
+            "text_en": "If you have at least 5 cards in hand， discard an Action or Treasure (or reveal you can't)."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 6,
+        "fields": {
+            "name_jp_kanji": "貪欲",
+            "name_jp_pronunciations": "どんよく",
+            "name_en": "Greed",
+            "expansion": 12,
+            "text_jp": "銅貨１枚を獲得し、あなたのデッキの上に置く。",
+            "text_en": "Gain a Copper onto your deck."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 7,
+        "fields": {
+            "name_jp_kanji": "憑依",
+            "name_jp_pronunciations": "ひょうい",
+            "name_en": "Haunting",
+            "expansion": 12,
+            "text_jp": "あなたの手札が４枚以上あれば、手札のカード１枚をあなたのデッキの上に置く。",
+            "text_en": "If you have at least 4 cards in hand， put one of them onto your deck."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 8,
+        "fields": {
+            "name_jp_kanji": "蝗害",
+            "name_jp_pronunciations": "こうがい",
+            "name_en": "Locusts",
+            "expansion": 12,
+            "text_jp": "あなたのデッキの一番上のカード１枚を廃棄する。廃棄したカードが屋敷か銅貨だった場合、呪い１枚を獲得する。そうでない場合、廃棄したカードと同じ種類を持ち、コストが少ないカード１枚を獲得する。",
+            "text_en": "Trash the top card of your deck. If it's Copper or Estate， gain a Curse. Otherwise， gain a cheaper card that shares a type with it."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 9,
+        "fields": {
+            "name_jp_kanji": "みじめな生活",
+            "name_jp_pronunciations": "みじめなせいかつ",
+            "name_en": "Misery",
+            "expansion": 12,
+            "text_jp": "このゲーム中にあなたが初めてみじめな生活の効果を受けた場合、生活苦を取る。そうでない場合、生活苦を裏返して二重苦にする。",
+            "text_en": "If this is your first Misery this game， take Miserable. Otherwise， flip it over to Twice Miserable."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 10,
+        "fields": {
+            "name_jp_kanji": "疫病",
+            "name_jp_pronunciations": "えきびょう",
+            "name_en": "Plague",
+            "expansion": 12,
+            "text_jp": "呪い１枚を獲得し、あなたの手札に加える。",
+            "text_en": "Gain a Curse to your hand."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 11,
+        "fields": {
+            "name_jp_kanji": "貧困",
+            "name_jp_pronunciations": "ひんこん",
+            "name_en": "Poverty",
+            "expansion": 12,
+            "text_jp": "手札が３枚になるように捨て札をする。",
+            "text_en": "Discard down to 3 cards in hand."
+        }
+    },
+    {
+        "model": "dominion_randomizer.Hex",
+        "pk": 12,
+        "fields": {
+            "name_jp_kanji": "戦争",
+            "name_jp_pronunciations": "せんそう",
+            "name_en": "War",
+            "expansion": 12,
+            "text_jp": "コスト３コインか４コインのカードを１枚が公開されるまで、あなたのデッキを上から公開する。そのカードを廃棄し、残りを捨て札にする。",
+            "text_en": "Reveal cards from your deck until revealing one costing $3 or $4. Trash it and discard the rest."
+        }
+    }
+]

@@ -1,7 +1,8 @@
 from django.db import models
 from .expansion import Expansion
+from .kingdom_card import KingdomCard
 
-class KingdomCard(models.Model):
+class RandomizerCard(models.Model):
     name_jp_kanji = models.CharField(max_length=30)
     name_jp_pronunciations = models.CharField(max_length=30)
     name_en = models.CharField(max_length=60)
@@ -49,4 +50,4 @@ class KingdomCard(models.Model):
     zombie = models.BooleanField(default=False, null=True)
 
     class Meta:
-        db_table = 'kingdom_cards'
+        db_table = 'randomizer_cards'
